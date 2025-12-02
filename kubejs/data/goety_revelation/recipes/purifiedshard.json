@@ -1,0 +1,56 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "kubejs:shard_of_compressed_mana"
+  },
+  "craftType": "expert_nether",
+  "research": "forbidden",
+  "entity_to_sacrifice": {
+    "tag": "minecraft:raiders",
+    "display_name": "entity.goety.apostle"
+  },
+  "soulCost": 666,
+  "duration": 40,
+  "ingredients": [
+    {
+      "item": "armageddon_mod:shadowed_ingot"
+    },
+    {
+      "item": "armageddon_mod:shadowed_ingot"
+    },
+    {
+      "item": "armageddon_mod:absorbtion_stone"
+    },
+    {
+      "item": "brutality:echo_chamber"
+    },
+    {
+      "item": "goety:unholy_fabric"
+    },
+    {
+      "item": "enigmaticlegacy:the_infinitum"
+    },
+    {
+      "item": "ancient_elements:sanctum_shard"
+    },
+    {
+      "item": "terramity:ultra_sniffer_fur"
+    },
+    {
+      "item": "morerelics:made_in_heaven"
+    },
+    {
+      "item": "goety_revelation:bow_of_revelation"
+    },
+    {
+      "item": "goety_revelation:broken_halo"
+    },
+    {
+      "item": "kubejs:fartinium_ingot"
+    }
+  ],
+  "result": {
+    "item": "kubejs:magic_vessel"
+  }
+}

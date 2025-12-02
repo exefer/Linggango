@@ -1,0 +1,45 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "ars_nouveau:creative_source_jar"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:source_jar"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "kubejs:linggangoonium_ingot"
+    }
+  ],
+  "sourceCost": 100000
+}

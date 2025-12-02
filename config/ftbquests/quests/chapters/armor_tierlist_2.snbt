@@ -1,0 +1,2024 @@
+{
+	autofocus_id: "146F15E6F147BBB6"
+	default_hide_dependency_lines: false
+	default_quest_shape: "irontier"
+	filename: "armor_tierlist_2"
+	group: "3B5FC78CC89E4CD7"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "composite_material:item/etherite_chestplate"
+		}
+	}
+	id: "252DE846B3263B85"
+	images: [
+		{
+			alpha: 155
+			click: "a"
+			height: 1.7d
+			hover: ["Tierlist was made by Icywinds, without him it would be impossible!"]
+			image: "terramity:item/crystal_heart"
+			rotation: 0.0d
+			width: 1.7d
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			height: 20.0d
+			image: "customtextures:textures/tierlist.png"
+			order: -25
+			rotation: 0.0d
+			width: 35.0d
+			x: -28.0d
+			y: 6.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4DC4887D6A626F11"
+			tasks: [
+				{
+					id: "06667A9B1865DA08"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "329719E562D8CEBE"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44613EACF04F6B1F"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "587DBCD0EB106AB4"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Chainmail Armor Set"
+			x: -39.0d
+			y: 10.5d
+		}
+		{
+			id: "334153E322FEB67A"
+			tasks: [
+				{
+					id: "7B2222E7AA310AAC"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EF06EB26C87F6AC"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B88013BADBE8AD7"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38FD078C51609516"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Osmium Armor Set"
+			x: -38.0d
+			y: 10.5d
+		}
+		{
+			id: "6251F642675D1E3B"
+			tasks: [
+				{
+					id: "2A9F014842FECD2D"
+					item: {
+						Count: 1
+						id: "terramity:ruby_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54337A208F0865D2"
+					item: {
+						Count: 1
+						id: "terramity:ruby_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C8868702D583A5D"
+					item: {
+						Count: 1
+						id: "terramity:ruby_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14F93CD36D5312E3"
+					item: {
+						Count: 1
+						id: "terramity:ruby_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ruby Armor Set"
+			x: -37.0d
+			y: 10.5d
+		}
+		{
+			id: "31358E93C3C0A316"
+			tasks: [
+				{
+					id: "6BA6A14D76C59E39"
+					item: {
+						Count: 1
+						id: "armageddon_mod:gilded_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33F092D6543CAE1E"
+					item: {
+						Count: 1
+						id: "armageddon_mod:gilded_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "221183B65620D0D2"
+					item: {
+						Count: 1
+						id: "armageddon_mod:gilded_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F6857CD6A88FCF9"
+					item: {
+						Count: 1
+						id: "armageddon_mod:gilded_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gilded Armor Set"
+			x: -36.0d
+			y: 10.5d
+		}
+		{
+			id: "4AEEDCCCEEFF5E52"
+			tasks: [
+				{
+					id: "1C8212423F166180"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79C4CE3D2DFF8C8F"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64162D1F3767CD18"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38F67FC5975C1A11"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diamond Armor Set"
+			x: -39.0d
+			y: 9.5d
+		}
+		{
+			id: "116DEF9CADF45BF0"
+			tasks: [
+				{
+					id: "18B2C46F1C1DFE58"
+					item: {
+						Count: 1
+						id: "armageddon_mod:apprentice_builder_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63F55955846EFA1D"
+					item: {
+						Count: 1
+						id: "armageddon_mod:apprentice_builder_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D9D423828F88783"
+					item: {
+						Count: 1
+						id: "armageddon_mod:apprentice_builder_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "277951AD36D793EC"
+					item: {
+						Count: 1
+						id: "armageddon_mod:apprentice_builder_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Apprentice Builder's Armor Set"
+			x: -38.0d
+			y: 9.5d
+		}
+		{
+			id: "6319BF91B2BBCBF6"
+			tasks: [
+				{
+					id: "066EC5E83301CCAD"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "514D28DDBBCFC348"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "336B5FAB133E649F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27DFAB115CC6C48E"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Armor Set"
+			x: -37.0d
+			y: 9.5d
+		}
+		{
+			id: "146F15E6F147BBB6"
+			shape: "goldtier"
+			tasks: [
+				{
+					id: "0BED7868A815A83C"
+					item: {
+						Count: 1
+						id: "goety_revelation:spider_darkmage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1890345BBE3B3E18"
+					item: {
+						Count: 1
+						id: "goety_revelation:spider_darkmage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FECE8C63621C78F"
+					item: {
+						Count: 1
+						id: "goety_revelation:spider_darkmage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55EA896FF5058800"
+					item: {
+						Count: 1
+						id: "goety_revelation:spider_darkmage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Spider Darkmage Armor Set"
+			x: -39.0d
+			y: 7.0d
+		}
+		{
+			id: "39B255C9A8E1B237"
+			shape: "goldtier"
+			tasks: [
+				{
+					id: "4792367C3D62094B"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E576E330CBF73CB"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63C933ABC4A25BE1"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1627D0317D97E0A6"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Refined Obsidian Armor Set"
+			x: -38.0d
+			y: 7.0d
+		}
+		{
+			id: "3474BCA33692079C"
+			shape: "goldtier"
+			tasks: [
+				{
+					id: "4F505F9B3B56B41D"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2680E1E982A7AFEC"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "483FDF32887F4E42"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63ABCD60150BCB4A"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dark Metal Armor Set"
+			x: -37.0d
+			y: 7.0d
+		}
+		{
+			id: "350B03D5AA41EA59"
+			shape: "goldtier"
+			tasks: [
+				{
+					id: "5FC25E9EF762EE75"
+					item: {
+						Count: 1
+						id: "composite_material:allay_steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EEB837D802C08B0"
+					item: {
+						Count: 1
+						id: "composite_material:allay_steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FDC7E0557FBD40E"
+					item: {
+						Count: 1
+						id: "composite_material:allay_steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C90B08A1D40356B"
+					item: {
+						Count: 1
+						id: "composite_material:allay_steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Allay Steel Armor Set"
+			x: -36.0d
+			y: 7.0d
+		}
+		{
+			id: "69A6C9466E2DBD15"
+			shape: "goldtier"
+			tasks: [
+				{
+					id: "1754D2C229E139B2"
+					item: {
+						Count: 1
+						id: "lethality:battle_maid_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "428344013C26928D"
+					item: {
+						Count: 1
+						id: "lethality:battle_maid_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E4FDD2277262CAD"
+					item: {
+						Count: 1
+						id: "lethality:battle_maid_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DE8D09886FE00B5"
+					item: {
+						Count: 1
+						id: "lethality:battle_maid_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Battle Maid Armor Set"
+			x: -39.0d
+			y: 6.0d
+		}
+		{
+			id: "6B10B2F6A01228E2"
+			shape: "goldtier"
+			tasks: [
+				{
+					id: "1F9AB79B7F25B3C4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77F2E8B198DF0590"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "023BDFB1FD3056DC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1052C860228875DC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite Battlemage Armor Set"
+			x: -38.0d
+			y: 6.0d
+		}
+		{
+			id: "0CEDB867C2FD61E9"
+			shape: "goldtier"
+			tasks: [
+				{
+					id: "4CB1F87F3FADB986"
+					item: {
+						Count: 1
+						id: "armageddon_mod:expert_builder_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C0243ACE72145E3"
+					item: {
+						Count: 1
+						id: "armageddon_mod:expert_builder_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DE207C9BC983DF6"
+					item: {
+						Count: 1
+						id: "armageddon_mod:expert_builder_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10B4A5E2C82EE633"
+					item: {
+						Count: 1
+						id: "armageddon_mod:expert_builder_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Expert Builder's Armor Set"
+			x: -37.0d
+			y: 6.0d
+		}
+		{
+			id: "588F7A8DFFF10F7D"
+			shape: "diamondtier"
+			tasks: [
+				{
+					id: "5853B9FCC88BD366"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "613ED34F25E10E0E"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "372E882A540C7BF3"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ADFBC9B064A9AB7"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hellspec Armor Set"
+			x: -39.0d
+			y: 3.5d
+		}
+		{
+			id: "0B23621DEF0F4329"
+			shape: "diamondtier"
+			tasks: [
+				{
+					id: "01B33EFB24CABA7C"
+					item: "traveloptics:forlorn_harbinger_hood"
+					type: "item"
+				}
+				{
+					id: "0925151E99D74AC1"
+					item: {
+						Count: 1
+						id: "traveloptics:forlorn_harbinger_robe"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CE69F42D505FBC9"
+					item: "traveloptics:forlorn_harbinger_leggings"
+					type: "item"
+				}
+				{
+					id: "0DDCBEB680BA5795"
+					item: "traveloptics:forlorn_harbinger_boots"
+					type: "item"
+				}
+			]
+			title: "Forlorn Harbinger Armor Set"
+			x: -38.0d
+			y: 3.5d
+		}
+		{
+			id: "1F05A761477E8FCA"
+			shape: "diamondtier"
+			tasks: [
+				{
+					id: "23B6A1CC0F3848E5"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "2774F259AA763397"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "1E40B88C1B18DD96"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "76E041EB4EBD5ACA"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
+			title: "MekaSuit"
+			x: -37.0d
+			y: 3.5d
+		}
+		{
+			id: "299A45FE9BC639EE"
+			shape: "diamondtier"
+			tasks: [
+				{
+					id: "6920ECC625D58E9E"
+					item: {
+						Count: 1
+						id: "armageddon_mod:bloody_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35F8162DBFE5070C"
+					item: {
+						Count: 1
+						id: "armageddon_mod:bloody_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BDAA630B7FCFF33"
+					item: {
+						Count: 1
+						id: "armageddon_mod:bloody_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C1FC7F6792D2A62"
+					item: {
+						Count: 1
+						id: "armageddon_mod:bloody_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bloody Armor Set"
+			x: -36.0d
+			y: 3.5d
+		}
+		{
+			id: "6B05151949E8ED6E"
+			shape: "diamondtier"
+			tasks: [
+				{
+					id: "199B7C6BCCFCB462"
+					item: {
+						Count: 1
+						id: "composite_material:echoium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "388220D1210881E8"
+					item: {
+						Count: 1
+						id: "composite_material:echoium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A6E2FE0F974CDF4"
+					item: {
+						Count: 1
+						id: "composite_material:echoium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50A464CFE10CECE8"
+					item: {
+						Count: 1
+						id: "composite_material:echoium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Echoium Armor Set"
+			x: -39.0d
+			y: 2.5d
+		}
+		{
+			id: "2DD2658EBD5ECBD2"
+			shape: "diamondtier"
+			tasks: [
+				{
+					id: "36E0C996C7C5B3AF"
+					item: {
+						Count: 1
+						id: "terramity:exodium_warlock_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11C92E92F541F4A5"
+					item: {
+						Count: 1
+						id: "terramity:exodium_warlock_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FC7C4A98FF6805A"
+					item: {
+						Count: 1
+						id: "terramity:exodium_warlock_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AE9BF2F6DFF5437"
+					item: {
+						Count: 1
+						id: "terramity:exodium_warlock_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Exodium Armor Set"
+			x: -38.0d
+			y: 2.5d
+		}
+		{
+			id: "4FE763269B914F97"
+			shape: "diamondtier"
+			tasks: [
+				{
+					id: "4CB3639F72B59759"
+					item: {
+						Count: 1
+						id: "terramity:nyxium_knight_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CB91B2A2A97B3AF"
+					item: {
+						Count: 1
+						id: "terramity:nyxium_knight_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B8438B075A66FE1"
+					item: {
+						Count: 1
+						id: "terramity:nyxium_knight_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BBECC53D1F5581D"
+					item: {
+						Count: 1
+						id: "terramity:nyxium_knight_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Nyxium Armor Set"
+			x: -37.0d
+			y: 2.5d
+		}
+		{
+			id: "44FA84598C501A59"
+			shape: "netheritetier"
+			tasks: [
+				{
+					id: "0275F5B44A3AA31B"
+					item: {
+						Count: 1
+						id: "composite_material:etherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15ED80F4DFAFCEB8"
+					item: {
+						Count: 1
+						id: "composite_material:etherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46988EAD822C2777"
+					item: {
+						Count: 1
+						id: "composite_material:etherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00CB37D9ACFC79F4"
+					item: {
+						Count: 1
+						id: "composite_material:etherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Etherite Armor Set"
+			x: -39.0d
+			y: 0.0d
+		}
+		{
+			id: "340369EF95675CBC"
+			shape: "netheritetier"
+			tasks: [
+				{
+					id: "2543AA58AC635AC0"
+					item: {
+						Count: 1
+						id: "armageddon_mod:helionite_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77FA4135BACA364C"
+					item: {
+						Count: 1
+						id: "armageddon_mod:helionite_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F8727C674BA2D91"
+					item: {
+						Count: 1
+						id: "armageddon_mod:helionite_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EC3BD4931CF9097"
+					item: {
+						Count: 1
+						id: "armageddon_mod:helionite_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Helionite Armor Set"
+			x: -38.0d
+			y: 0.0d
+		}
+		{
+			id: "1A095955738EF463"
+			shape: "netheritetier"
+			tasks: [
+				{
+					id: "7EC1B7C8D7520243"
+					item: {
+						Count: 1
+						id: "ancient_elements:aeonite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "146A8B105CD4DFC7"
+					item: {
+						Count: 1
+						id: "ancient_elements:aeonite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48025D761EF558EC"
+					item: {
+						Count: 1
+						id: "ancient_elements:aeonite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53EF2D242F406D4A"
+					item: {
+						Count: 1
+						id: "ancient_elements:aeonite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Aeonite Armor Set"
+			x: -37.0d
+			y: 0.0d
+		}
+		{
+			id: "534872787E33B5B8"
+			shape: "netheritetier"
+			tasks: [
+				{
+					id: "25B8A24D97329970"
+					item: {
+						Count: 1
+						id: "goety_revelation:apocalyptium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A582D82058C2AC4"
+					item: {
+						Count: 1
+						id: "goety_revelation:apocalyptium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F3DB3457C161D89"
+					item: {
+						Count: 1
+						id: "goety_revelation:apocalyptium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3480B90127FEB75B"
+					item: {
+						Count: 1
+						id: "goety_revelation:apocalyptium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Apocalyptium Armor Set"
+			x: -36.0d
+			y: 0.0d
+		}
+		{
+			id: "027BB4436B060ACB"
+			shape: "netheritetier"
+			tasks: [
+				{
+					id: "65C2BE195C77DA9D"
+					item: {
+						Count: 1
+						id: "lethality:hf_battle_maid_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "213E653F573A11FE"
+					item: {
+						Count: 1
+						id: "lethality:hf_battle_maid_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16537A6C71151012"
+					item: {
+						Count: 1
+						id: "lethality:hf_battle_maid_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A580B3500204893"
+					item: {
+						Count: 1
+						id: "lethality:hf_battle_maid_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "HF Maid Armor Set"
+			x: -39.0d
+			y: -1.0d
+		}
+		{
+			id: "01EB67EBD2F61F4B"
+			shape: "netheritetier"
+			tasks: [
+				{
+					id: "673FF2A244702F37"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A68B67275A7A378"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EC1E2CB1200A13E"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F65867AEC083069"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cursium Armor Set"
+			x: -38.0d
+			y: -1.0d
+		}
+		{
+			id: "004CAF59A205A5BD"
+			shape: "netheritetier"
+			tasks: [
+				{
+					id: "67806D73B4DF640E"
+					item: {
+						Count: 1
+						id: "composite_material:primitive_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "505F64B14CDBE541"
+					item: {
+						Count: 1
+						id: "composite_material:primitive_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16A35A8E5C23C513"
+					item: {
+						Count: 1
+						id: "composite_material:primitive_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58002F6E437A25D2"
+					item: {
+						Count: 1
+						id: "composite_material:primitive_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Primitive Armor Set"
+			x: -37.0d
+			y: -1.0d
+		}
+		{
+			id: "539EF546463670BE"
+			shape: "netheritetier"
+			tasks: [
+				{
+					id: "0BF4378DF6550C8E"
+					item: {
+						Count: 1
+						id: "ancient_elements:galactrium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AF2272C7168830D"
+					item: {
+						Count: 1
+						id: "ancient_elements:galactrium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E68453BAB0CFFC9"
+					item: {
+						Count: 1
+						id: "ancient_elements:galactrium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "561B86D832E31917"
+					item: {
+						Count: 1
+						id: "ancient_elements:galactrium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Galactrium Armor Set"
+			x: -36.0d
+			y: -1.0d
+		}
+		{
+			id: "5E71128A1AED7F27"
+			shape: "diamondtier"
+			tasks: [
+				{
+					id: "5C1998BAE67823C1"
+					item: {
+						Count: 1
+						id: "ancient_elements:celestium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "411D9B0FADAA30D3"
+					item: {
+						Count: 1
+						id: "ancient_elements:celestium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45E081845E4388CB"
+					item: {
+						Count: 1
+						id: "ancient_elements:celestium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3509E2C7FC1AD75C"
+					item: {
+						Count: 1
+						id: "ancient_elements:celestium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Celestium Armor Set"
+			x: -36.0d
+			y: 2.5d
+		}
+		{
+			id: "43091E16866932BB"
+			shape: "goldtier"
+			tasks: [
+				{
+					id: "6DE2901A04BE3B1B"
+					item: {
+						Count: 1
+						id: "ancient_elements:void_steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74E1D55A292F8CBF"
+					item: {
+						Count: 1
+						id: "ancient_elements:void_steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BE822BA97B364B8"
+					item: {
+						Count: 1
+						id: "ancient_elements:void_steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37A2533AAAA10137"
+					item: {
+						Count: 1
+						id: "ancient_elements:void_steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Void Steel Armor Set"
+			x: -36.0d
+			y: 6.0d
+		}
+		{
+			id: "06F5E1D1D8A7AB3A"
+			tasks: [
+				{
+					id: "6C77EA201CBAD613"
+					item: {
+						Count: 1
+						id: "ancient_elements:palladium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "390B6BCB9D3B1890"
+					item: {
+						Count: 1
+						id: "ancient_elements:palladium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CBA15DC7DDE8F0D"
+					item: {
+						Count: 1
+						id: "ancient_elements:palladium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74E0EAFBB74DBA0F"
+					item: {
+						Count: 1
+						id: "ancient_elements:palladium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Palladium Armor Set"
+			x: -36.0d
+			y: 9.5d
+		}
+		{
+			id: "294DEE3FA9FF8226"
+			shape: "woodtier"
+			tasks: [
+				{
+					id: "1456C5D2C09E39DA"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65BE80E54A7A8386"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7636639B179C8B53"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00F8C6305F64C2BE"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sterling Armor Set"
+			x: -39.0d
+			y: 14.0d
+		}
+		{
+			id: "75DC00CE27DAE8CA"
+			shape: "woodtier"
+			tasks: [
+				{
+					id: "27731CAC02A45678"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15C9422791557C8B"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DDADD0BC2A4D07F"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5097267D70FF803D"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Leather Armor Set"
+			x: -39.0d
+			y: 13.0d
+		}
+		{
+			id: "24850E2E95C8D1FE"
+			shape: "woodtier"
+			tasks: [
+				{
+					id: "3CCB79201AD129A1"
+					item: {
+						Count: 1
+						id: "mekanismtools:lapis_lazuli_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67EE585B5025E415"
+					item: {
+						Count: 1
+						id: "mekanismtools:lapis_lazuli_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40FFFCCFBADF0488"
+					item: {
+						Count: 1
+						id: "mekanismtools:lapis_lazuli_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AC2390B9C11FB13"
+					item: {
+						Count: 1
+						id: "mekanismtools:lapis_lazuli_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Lapis Lazuli Armor set"
+			x: -38.0d
+			y: 14.0d
+		}
+		{
+			id: "545F42D8EAFB4936"
+			shape: "woodtier"
+			tasks: [
+				{
+					id: "23A5D6A0E0203164"
+					item: {
+						Count: 1
+						id: "ancient_elements:tin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30DF651D83727D45"
+					item: {
+						Count: 1
+						id: "ancient_elements:tin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "232788E9C7D8EA69"
+					item: {
+						Count: 1
+						id: "ancient_elements:tin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "656559405E66377C"
+					item: {
+						Count: 1
+						id: "ancient_elements:tin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tin Armor Set"
+			x: -38.0d
+			y: 13.0d
+		}
+		{
+			id: "48B9E9D20D4A0B40"
+			shape: "woodtier"
+			tasks: [
+				{
+					id: "3B6EC9A0EBA91A22"
+					item: {
+						Count: 1
+						id: "ancient_elements:lead_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CF06637A69FA04D"
+					item: {
+						Count: 1
+						id: "ancient_elements:lead_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48A4403765569A6A"
+					item: {
+						Count: 1
+						id: "ancient_elements:lead_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "496D3EF6702F21D6"
+					item: {
+						Count: 1
+						id: "ancient_elements:lead_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Lead Armor Set"
+			x: -37.0d
+			y: 14.0d
+		}
+		{
+			id: "120CD3B5E87BD7B8"
+			shape: "woodtier"
+			tasks: [
+				{
+					id: "1A1C05D17DFD41D2"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D6195D319361E00"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76EC9D4A92820EA8"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "295D58EA524EAFF1"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mutant Skeleton Armor Set"
+			x: -37.0d
+			y: 13.0d
+		}
+	]
+	subtitle: ["This tierlist is outdated, though the information in it is %90 true, it still is outdated."]
+	title: "Armor Tierlist (outdated)"
+}

@@ -1,0 +1,47 @@
+{
+  "attributes": {
+    "pose": "weapon:pose_great_sword_animated",
+    "attack_range": 5.0,
+    "attacks": [
+      {
+        "angle": 360.0,
+        "animation": "bettercombat:two_handed_slash_horizontal_right",
+        "damage_multiplier": 2.0,
+        "hitbox": "HORIZONTAL_PLANE",
+        "swing_sound": {
+          "id": "bettercombat:scythe_slash",
+          "pitch": -2.0,
+          "randomness": 0.1,
+          "volume": 1.0
+        },
+        "upswing": 0.5
+      },
+      {
+        "angle": 360.0,
+        "animation": "bettercombat:two_handed_slash_horizontal_left",
+        "hitbox": "HORIZONTAL_PLANE",
+        "swing_sound": {
+          "id": "bettercombat:scythe_slash",
+          "pitch": -2.0,
+          "randomness": 0.1,
+          "volume": 1.0
+        },
+        "upswing": 0.5
+      },
+      {
+        "angle": 0,
+        "animation": "bettercombat:two_handed_slam",
+        "damage_multiplier": 3.0,
+        "hitbox": "FORWARD_BOX",
+        "swing_sound": {
+          "id": "bettercombat:claymore_slam",
+          "pitch": -2.0,
+          "randomness": 0.1,
+          "volume": 1.0
+        },
+        "upswing": 0.5
+      }
+    ],
+    "two_handed": true
+  }
+}

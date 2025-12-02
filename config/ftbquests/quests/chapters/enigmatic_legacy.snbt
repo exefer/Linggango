@@ -1,0 +1,1311 @@
+{
+	autofocus_id: "133154C8444D452C"
+	default_hide_dependency_lines: false
+	default_quest_shape: "netheritetier"
+	filename: "enigmatic_legacy"
+	group: "20D67F7F184680D5"
+	icon: "enigmaticaddons:illusion_lantern"
+	id: "31575DEBB2A21CCD"
+	images: [
+		{
+			height: 1.45d
+			image: "terramity:block/hexing_circle"
+			rotation: 0.0d
+			width: 1.45d
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/twisting_vines/glow/drippy"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/twisting_vines/glow/drippy"
+			rotation: 180.0d
+			width: 1.0d
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			height: 2.5d
+			image: "customtextures:textures/enigmaticlegacylogo.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -0.5d
+			y: 3.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["133154C8444D452C"]
+			description: [
+				"&eFollowing this path will also teach you how to get rid of the ring or redeeming yourself."
+				""
+				"Ring of the seven curses is a game-changing accessory that will make the game significantly harder for you."
+				""
+				"{ \"text\": \"-Definitely check here as a cursed ring bearer-\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7E0093211509C03D\" } }"
+				""
+				"Even though it has tons of debuffs, it also has great buffs!"
+				""
+				"Like.."
+				""
+				"&8-Able to unique accessories who non-ring users cant."
+				""
+				"&8-Recieving Special loot! (Check the second page to see the possible loots)"
+				""
+				"&8-Gaining more Xp!&r"
+				""
+				"{@pagebreak}"
+				""
+				"&lThe list of drops you can get from mobs:"
+				"&c&n-ONLY FROM PLAYER KILLS&r&r"
+				""
+				"&eShulkers:&r 1 Astral Dust (20% Chance)"
+				""
+				"&eSkeletons&r and Strays:&r 3-15 Arrow"
+				""
+				"&eZombies and Husks:&r 1-3 Slime Ball (25% Chance)"
+				""
+				"&eSpiders and Cave Spiders:&r 2-12 String"
+				""
+				"&eGuardians: 1 Nautilus Shell &r(15% Chance), 2-5 Prismarine Crystals"
+				""
+				"&eElder Guardians: &r4-16 Prismarine Crystals, 7-28 Prismarine Shard, one of: [1 Heart of the Guardian; 1 Heart of the Sea; 1"
+				""
+				"&eEnchanted Golden Apple;&r 1 Ender Eye; 1 Trident (Enchanted with 25-40 levels)]"
+				""
+				"&eEndermen:&r 1-2 Ender Eye (40% Chance)"
+				""
+				"&eBlazes:&r 0-5 Blaze Powder"
+				""
+				"&eZombified Piglins:&r 1-3 Gold Ingot (40% Chance), 1-7 Glowstone Dust (30% Chance)"
+				""
+				"&eWitches:&r 1 Ghast Tear (30% Chance), 1-3 Phantom Membrane (50% Chance)"
+				""
+				"&ePillagers and Vindicators:&r 0-4 Emerald"
+				""
+				"&eVillagers:&r 2-6 Emerald"
+				""
+				"&eCreepers:&r 4-12 Gunpowder"
+				""
+				"&ePiglin Brutes:&r 1 Netherite Scrap (20% Chance)"
+				""
+				"&eEvokers:&r 1 Totem of Undying, 5-20 Emerald, 1 Enchanted Golden Apple (10% Chance), 1-3 Ender Pearl (30% Chance), 2-4 Blaze Rod"
+				"(30% Chance), 4-10 Experience Bottle (50% Chance)"
+				""
+				"&eWither Skeletons: &r0-3 Blaze Powder, 1 Ghast Tear (20% Chance), 1 Netherite Scrap (7% Chance)"
+				""
+				"&eGhasts:&r 1-4 Phantom Membrane"
+				""
+				"&eDrowned:&r 1-3 Lapis Lazuli (30% Chance)"
+				""
+				"&eVexes:&r 0-2 Glowstone Dust, 1 Phantom Membrane (30% Chance)"
+				""
+				"&ePiglins:&r 2-4 Gold Ingot (50% Chance)"
+				""
+				"&eRavagers:&r 3-10 Emerald, 2-7 Leather, 0-4 Diamond (50% Chance)"
+				""
+				"&eMagma Cubes:&r 1 Blaze Powder (50% Chance)"
+				""
+				"&eChickens:&r 1 Egg (50% Chance)"
+				""
+				"&eWithers: &r1-4 Nefarious Essence"
+				""
+				"&eEnder Dragons:&r 1 Heart of the Abyss. Drops only if player spent at least 99.5% of the time in world bearing the ring, and if they aquired less than 4 hearts yet. Unlike other drops, heart spawns at the place of dragon's final disappearance and remains floating in the air. It has proven hard to notice for some players."
+			]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "7C1409F2EE726A20"
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "22AE10101A709E4F"
+				table_id: 2501998888776764148L
+				title: "Random Free Food"
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				advancement: "enigmaticlegacy:main/cursed_ring"
+				criterion: ""
+				id: "2B84EF38A06D7173"
+				type: "advancement"
+			}]
+			title: "Ring of Seven Curses"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["133154C8444D452C"]
+			description: [
+				"Spellstones are another curio type added by enigmatic legacy mod."
+				""
+				"They provide unique buffs with some debuffs."
+				""
+				"Spellstones are not craftable, you have to find them through loot chests!"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1C5454142117BE3D"
+			rewards: [{
+				id: "04FBF8EF934E5670"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "7A55601653798887"
+				title: "Got it!"
+				type: "checkmark"
+			}]
+			title: "Spellstones"
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			description: [
+				"If you wanna know more about the mod, check the in-game wiki :D"
+				""
+				"It even has attack damage.."
+			]
+			icon: "enigmaticlegacy:the_acknowledgment"
+			id: "133154C8444D452C"
+			rewards: [{
+				id: "5F0BE9A6B7BF2311"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "In-game Wiki"
+			tasks: [{
+				id: "4BF0AD9A5A00548A"
+				item: "enigmaticlegacy:the_acknowledgment"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["133154C8444D452C"]
+			description: ["Arcane scrolls can help make your build lot more stronger than before! Thus obtaining them is really.. hard."]
+			id: "6D90E585D2406F72"
+			shape: "square"
+			subtitle: "Base material for few Arcane Scrolls."
+			tasks: [{
+				id: "6079CB0880B7608F"
+				item: "enigmaticlegacy:thicc_scroll"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6D90E585D2406F72"]
+			description: ["You can also duplicate it!"]
+			id: "453718D66065CA4A"
+			shape: "square"
+			subtitle: "Can be Found in Bastions"
+			tasks: [{
+				id: "1C00411329331083"
+				item: "enigmaticlegacy:darkest_scroll"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6D90E585D2406F72"]
+			id: "4EF80EAF25964BE6"
+			shape: "hexagon"
+			subtitle: "Read The Description"
+			tasks: [{
+				id: "4AEB539432E655DF"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4EF80EAF25964BE6"]
+			id: "071B31311EAC896B"
+			shape: "hexagon"
+			subtitle: "Read The Description"
+			tasks: [{
+				id: "7748817D95D587F7"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6D90E585D2406F72"]
+			id: "18362E8AD6EE9A8C"
+			shape: "hexagon"
+			subtitle: "Read The Description"
+			tasks: [{
+				id: "5E705F45FEECA425"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6D90E585D2406F72"]
+			id: "1CB5C629D6E2424A"
+			shape: "hexagon"
+			subtitle: "Read The Description"
+			tasks: [{
+				id: "71FC854EA40D4E32"
+				item: "enigmaticlegacy:xp_scroll"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7C1409F2EE726A20"]
+			id: "38D6971551A08950"
+			rewards: [{
+				id: "23C690A75C08DFFC"
+				item: "enigmaticlegacy:twisted_heart"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Crafting Material For Tons Of Items"
+			tasks: [{
+				id: "5519F75C71F4D908"
+				item: "enigmaticlegacy:twisted_heart"
+				type: "item"
+			}]
+			x: 5.2157207467859195d
+			y: 10.22212121506066d
+		}
+		{
+			dependencies: ["453718D66065CA4A"]
+			icon: "enigmaticlegacy:avarice_scroll"
+			id: "3CC6763FA003F3C9"
+			shape: "pentagon"
+			subtitle: "Read The Description"
+			tasks: [{
+				id: "30EA6E2D6D4430DF"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["38D6971551A08950"]
+			id: "6846117D4E5F8AE6"
+			rewards: [{
+				id: "107EF91C962DD0D7"
+				item: "enigmaticlegacy:evil_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Crafting material for some useful artifacts."
+			tasks: [{
+				id: "417D53D18AEA7AA3"
+				item: "enigmaticlegacy:evil_ingot"
+				type: "item"
+			}]
+			x: 5.589948149997099d
+			y: 12.15027565472657d
+		}
+		{
+			dependencies: [
+				"38D6971551A08950"
+				"09077C44A8234437"
+			]
+			description: [
+				"&4Are you going to end it now?"
+				""
+				"&8OR"
+				""
+				"&eRedeem yourself?"
+			]
+			id: "79CAB265AED63D74"
+			rewards: [
+				{
+					id: "357F0D3917B77559"
+					type: "xp"
+					xp: 67
+				}
+				{
+					id: "69E4D3D706A3D43B"
+					item: "enigmaticlegacy:evil_essence"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Decide."
+			tasks: [{
+				id: "1CA42B32C204C158"
+				item: "enigmaticlegacy:cursed_stone"
+				type: "item"
+			}]
+			x: 8.367918672937336d
+			y: 9.559450627723976d
+		}
+		{
+			dependencies: ["133154C8444D452C"]
+			id: "788323CC97A47410"
+			shape: "gear"
+			subtitle: "Hold \"Shift\" on item to read description."
+			tasks: [{
+				id: "2B466E7825C3989B"
+				item: "enigmaticlegacy:enchanter_pearl"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["133154C8444D452C"]
+			id: "1C307E515AE26E6D"
+			shape: "rsquare"
+			subtitle: "Gives +1 ring slot"
+			tasks: [{
+				id: "1E35F0E36F407123"
+				item: "enigmaticlegacy:astral_fruit"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1C5454142117BE3D"]
+			description: ["With the various spellstones you find around the world, you can craft this busted spellstone!"]
+			hide_until_deps_complete: true
+			icon_scale: 1.1d
+			id: "4DDBC1D61C892B9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10E552740E9634CA"
+				table_id: 8699295573854160387L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.3d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "71CDA0B3387C7A20"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			title: "Ultimate Spellstone"
+			x: -8.617228409710421d
+			y: 15.670965487624876d
+		}
+		{
+			dependencies: ["31D5660B2782F8A0"]
+			id: "09077C44A8234437"
+			shape: "rsquare"
+			subtitle: "Redeem yourself"
+			tasks: [{
+				id: "2FE0D4917E0414FF"
+				item: "enigmaticaddons:pure_heart"
+				type: "item"
+			}]
+			x: 7.453632958651625d
+			y: 8.416593484866837d
+		}
+		{
+			dependencies: ["696721016FE9651A"]
+			description: ["Or you thought so."]
+			id: "759330FDA1A18091"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E5C450063DBA997"
+				table_id: 8699295573854160387L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "You've become a changed person."
+			tasks: [{
+				id: "3CDD9773776FA95F"
+				item: "enigmaticaddons:bless_ring"
+				type: "item"
+			}]
+			x: 11.767918672937341d
+			y: 8.730879199152547d
+		}
+		{
+			dependencies: ["133154C8444D452C"]
+			description: ["By use, will grant you +1 Arcane Slot!"]
+			id: "754C73E15C8C4080"
+			subtitle: "Found in Dungeons"
+			tasks: [{
+				id: "19EA112213E3097B"
+				item: "enigmaticaddons:void_tome"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"09077C44A8234437"
+				"79CAB265AED63D74"
+			]
+			id: "696721016FE9651A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15ED587234A69B5A"
+				table_id: 8699295573854160387L
+				type: "random"
+			}]
+			shape: "rsquare"
+			subtitle: "As time progresses, your ring will turn into something else."
+			tasks: [{
+				id: "1C3005811F7C185C"
+				item: "enigmaticaddons:bless_stone"
+				type: "item"
+			}]
+			x: 9.653632958651627d
+			y: 8.159450627723977d
+		}
+		{
+			dependencies: ["453718D66065CA4A"]
+			id: "0AA1567557149D5C"
+			shape: "pentagon"
+			subtitle: "Read The Description"
+			tasks: [{
+				id: "73AF42474FA9063C"
+				item: "enigmaticaddons:night_scroll"
+				type: "item"
+			}]
+			x: 2.5285714285714462d
+			y: 14.407142857142844d
+		}
+		{
+			dependencies: ["74D03B0A580FBCEA"]
+			id: "684D08CDB9CD24B2"
+			shape: "pentagon"
+			subtitle: "Read The Description"
+			tasks: [{
+				id: "765EBB8F36745B1A"
+				item: "enigmaticaddons:violence_scroll"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["453718D66065CA4A"]
+			id: "1D5A7FA7C73BA7AB"
+			shape: "pentagon"
+			subtitle: "Read The Description"
+			tasks: [{
+				id: "062DDD7A61E9D782"
+				item: "enigmaticaddons:thunder_scroll"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1CB5C629D6E2424A"]
+			id: "172C4ECEC40C15C7"
+			shape: "hexagon"
+			subtitle: "Read The Description"
+			tasks: [{
+				id: "464E4B54D0D2A67B"
+				item: "enigmaticaddons:cursed_xp_scroll"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["133154C8444D452C"]
+			description: ["Can be found in fortresses usually."]
+			id: "21F1B3153AC536EC"
+			shape: "gear"
+			subtitle: "Double-edged Blade"
+			tasks: [{
+				id: "5B480F09F1394A10"
+				item: "enigmaticaddons:hell_blade_charm"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["55734E38E104A8A3"]
+			id: "44E73F8F9B1EE438"
+			subtitle: "While inventory, you're a pacifist."
+			tasks: [{
+				id: "3F0935E5007B2783"
+				item: "enigmaticaddons:ode_to_living"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["133154C8444D452C"]
+			id: "55734E38E104A8A3"
+			subtitle: "Read The Description"
+			tasks: [{
+				id: "77F879CE039E2077"
+				item: "enigmaticlegacy:animal_guidebook"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["133154C8444D452C"]
+			id: "7FCED5BDBAC349DA"
+			shape: "gear"
+			subtitle: "Hold \"Shift\" on item to read description."
+			tasks: [{
+				id: "2C759EB143DAC1ED"
+				item: "enigmaticdelicacy:weapon_charm"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["453718D66065CA4A"]
+			id: "74D03B0A580FBCEA"
+			shape: "pentagon"
+			tasks: [{
+				id: "4DFC7C820D14CBD4"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7C1409F2EE726A20"]
+			id: "31D5660B2782F8A0"
+			rewards: [{
+				id: "6A3DE070F1343EEA"
+				item: "enigmaticlegacy:earth_heart"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "The fragments can be found in loot chests."
+			tasks: [{
+				id: "7D2648F2970331EE"
+				item: "enigmaticlegacy:earth_heart"
+				type: "item"
+			}]
+			x: 5.19056622742815d
+			y: 9.039858805245728d
+		}
+		{
+			dependencies: ["7C1409F2EE726A20"]
+			id: "76C9B01E36E5AB88"
+			shape: "gear"
+			subtitle: "Luxury indeed"
+			tasks: [{
+				id: "2D6C0415930C3147"
+				item: "enigmaticaddons:avarice_ring"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7C1409F2EE726A20"]
+			id: "4B00EB073147BE1C"
+			shape: "gear"
+			subtitle: "Huge damage"
+			tasks: [{
+				id: "31AE146E75FDCDD2"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["38D6971551A08950"]
+			id: "2E49C6804E43E5EB"
+			shape: "diamond"
+			subtitle: "The hungrier you get, the stronger you are."
+			tasks: [{
+				id: "77AF63C0F90F5305"
+				item: "enigmaticdelicacy:gluttony_charm"
+				type: "item"
+			}]
+			x: 6.589948149997099d
+			y: 12.15027565472657d
+		}
+		{
+			dependencies: ["38D6971551A08950"]
+			id: "557518DA3588F3E5"
+			shape: "diamond"
+			subtitle: "The more damage you took, the stronger you get."
+			tasks: [{
+				id: "0D524395D908C451"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: 7.089948149997099d
+			y: 11.65027565472657d
+		}
+		{
+			dependencies: ["38D6971551A08950"]
+			description: ["This item will basically save you from the hassle of burning infinitely with the ring on!"]
+			id: "68D1F242DE84DAD4"
+			shape: "diamond"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "077030A714B65D7E"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.089948149997099d
+			y: 11.65027565472657d
+		}
+		{
+			dependencies: ["38D6971551A08950"]
+			id: "4FB100818476221C"
+			shape: "diamond"
+			subtitle: "Tp's you back into your respawn"
+			tasks: [{
+				id: "5BB0A10BA8B4FAB8"
+				item: "enigmaticlegacy:twisted_mirror"
+				type: "item"
+			}]
+			x: 6.589948149997099d
+			y: 11.15027565472657d
+		}
+		{
+			dependencies: ["38D6971551A08950"]
+			id: "1251A528CF0FA9E6"
+			shape: "diamond"
+			subtitle: "Pets deal extra damage"
+			tasks: [{
+				id: "47E65B14F10BACF2"
+				item: "enigmaticaddons:sanguinary_handbook"
+				type: "item"
+			}]
+			x: 6.589948149997099d
+			y: 10.15027565472657d
+		}
+		{
+			dependencies: ["38D6971551A08950"]
+			id: "2564233E9047D16D"
+			shape: "diamond"
+			subtitle: "This might be tuff"
+			tasks: [{
+				id: "2BC38001A55F81B6"
+				item: "enigmaticlegacy:the_twist"
+				type: "item"
+			}]
+			x: 7.089948149997099d
+			y: 10.65027565472657d
+		}
+		{
+			dependencies: ["38D6971551A08950"]
+			id: "3CF354DCC4A0A2B5"
+			shape: "diamond"
+			subtitle: "Basically a totem"
+			tasks: [{
+				id: "7414459181B943AB"
+				item: "enigmaticaddons:earth_promise"
+				type: "item"
+			}]
+			x: 5.089948149997099d
+			y: 11.65027565472657d
+		}
+		{
+			dependencies: ["7C1409F2EE726A20"]
+			id: "254DA33640B9DE28"
+			shape: "gear"
+			tasks: [{
+				id: "54B8048B0DE258DA"
+				item: "enigmaticlegacy:guardian_heart"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7C1409F2EE726A20"]
+			id: "28B0DED0A721CBDF"
+			shape: "gear"
+			tasks: [{
+				id: "5BA293A0E51EBB2A"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:evil_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7C1409F2EE726A20"]
+			id: "64DA4EAEE52163C5"
+			shape: "gear"
+			tasks: [{
+				id: "0523B27C179EA861"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:chaos_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7C1409F2EE726A20"]
+			id: "234F0858E3E9729E"
+			shape: "gear"
+			tasks: [{
+				id: "6B6FE4513E9C6D2D"
+				item: "enigmaticlegacy:desolation_ring"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7FA3A3D37FE6F80A"]
+			id: "14FD4D266AE1366B"
+			shape: "gear"
+			tasks: [{
+				id: "6315DC3E30C90C4D"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["133154C8444D452C"]
+			id: "7FA3A3D37FE6F80A"
+			shape: "gear"
+			tasks: [{
+				id: "332230005F3B26E5"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ascension_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["79CA54538B3548C9"]
+			id: "2E0B70D95240D347"
+			tasks: [{
+				id: "3C25211956FCE34B"
+				item: "enigmaticlegacy:curse_transposer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["133154C8444D452C"]
+			id: "79CA54538B3548C9"
+			shape: "circle"
+			tasks: [{
+				id: "25CCF207982FCE62"
+				item: "enigmaticlegacy:enchantment_transposer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2564233E9047D16D"]
+			id: "09626B89517F7AA1"
+			shape: "gear"
+			tasks: [{
+				id: "2CFEDF9B2A563E7E"
+				item: "enigmaticlegacy:the_infinitum"
+				type: "item"
+			}]
+			x: 8.161376721425668d
+			y: 11.464561369012287d
+		}
+		{
+			dependencies: ["133154C8444D452C"]
+			id: "224E2C54C3E61F0F"
+			tasks: [{
+				id: "4CEE5B3F5FBD44D8"
+				item: "enigmaticaddons:the_bless"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7C1409F2EE726A20"]
+			id: "19826C16F922CED4"
+			tasks: [{
+				id: "13A32BC52407E9A2"
+				item: "enigmaticlegacy:enchanter_pearl"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C5454142117BE3D"]
+			id: "164BA343EDE55530"
+			shape: "octagon"
+			tasks: [{
+				id: "0ADC3FE253644CE8"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:etherium_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7C1409F2EE726A20"]
+			id: "0E6FBCA04CD07374"
+			shape: "gear"
+			tasks: [{
+				id: "0632ADCDC7513034"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ender_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C1409F2EE726A20"]
+			id: "01159B7169A3D86D"
+			shape: "gear"
+			tasks: [{
+				id: "5324F80348E2BB01"
+				item: "enigmaticaddons:totem_of_malice"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E81BE2F003302C4"]
+			id: "096B47BDC9DDD3E6"
+			shape: "diamond"
+			tasks: [{
+				id: "7EB9DCEE020BADC6"
+				item: "enigmaticaddons:scorched_charm"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["79CA54538B3548C9"]
+			id: "51CE7CDFA54F0D31"
+			tasks: [{
+				id: "3912F879465B603C"
+				item: "enigmaticaddons:bless_amplifier"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["133154C8444D452C"]
+			id: "240C6600ADD40176"
+			shape: "gear"
+			tasks: [{
+				id: "42E0614D0A79C105"
+				item: "enigmaticlegacy:forbidden_fruit"
+				type: "item"
+			}]
+			x: 0.5241711336373314d
+			y: 8.7389077582652d
+		}
+		{
+			dependencies: ["1C5454142117BE3D"]
+			id: "0EE897D448588800"
+			shape: "octagon"
+			tasks: [{
+				id: "02F4EC534D53E0DA"
+				item: "enigmaticaddons:forgotten_ice"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1C5454142117BE3D"]
+			id: "2E040606FC6E7651"
+			shape: "octagon"
+			tasks: [{
+				id: "1D86F194FBB05138"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1C5454142117BE3D"]
+			id: "2790145B40B1235F"
+			shape: "octagon"
+			tasks: [{
+				id: "3599DBD1DFF815B3"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1C5454142117BE3D"]
+			id: "2B4E64C3CFDDDA0E"
+			shape: "octagon"
+			tasks: [{
+				id: "39D434330DC281B1"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1C5454142117BE3D"]
+			id: "12102AA9A2FE622D"
+			shape: "octagon"
+			tasks: [{
+				id: "1BCB9DA23AC84828"
+				item: "enigmaticaddons:revival_leaf"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1C5454142117BE3D"]
+			id: "27208D0E1E251340"
+			shape: "octagon"
+			tasks: [{
+				id: "3C5BABA60671FF49"
+				item: "enigmaticaddons:illusion_lantern"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1C5454142117BE3D"]
+			id: "40490AD5D5944E44"
+			shape: "octagon"
+			tasks: [{
+				id: "5A0E11CB579B256B"
+				item: "enigmaticaddons:lost_engine"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1C5454142117BE3D"]
+			id: "3E81BE2F003302C4"
+			shape: "octagon"
+			tasks: [{
+				id: "208D98DE47D00068"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1C5454142117BE3D"]
+			id: "6ED54A6E4E83B591"
+			shape: "octagon"
+			tasks: [{
+				id: "4C58CDCDE9B4FA6A"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1C5454142117BE3D"]
+			id: "1DA0226C6211897B"
+			shape: "octagon"
+			tasks: [{
+				id: "0D86A08631DD09E4"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1C5454142117BE3D"]
+			id: "73825ABBA98CC8C0"
+			shape: "octagon"
+			tasks: [{
+				id: "70693602132CA272"
+				item: "enigmaticlegacy:enigmatic_item"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7C1409F2EE726A20"]
+			description: ["That which is donned may never be unequipped. Embrace fully the path of one element, and wield its potency to the absolute."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.45d
+			id: "677EB1EA32079619"
+			rewards: [{
+				id: "4441423CF08611E9"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "square"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "0DCFD519501C8971"
+				title: "Wow"
+				type: "checkmark"
+			}]
+			title: "Elemental Blasphemy"
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["677EB1EA32079619"]
+			id: "70285FED7F72E787"
+			shape: "diamond"
+			subtitle: "Read The Item Description"
+			tasks: [{
+				id: "1A39B91AB562637F"
+				item: "covenant_of_the_seven:ice_blasphemy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["677EB1EA32079619"]
+			id: "775CCED955B701B8"
+			shape: "diamond"
+			subtitle: "Read The Item Description"
+			tasks: [{
+				id: "26B9FE6D33C50EC7"
+				item: "covenant_of_the_seven:holy_blasphemy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["677EB1EA32079619"]
+			id: "7EA7122FCFDB31DB"
+			shape: "diamond"
+			subtitle: "Read The Item Description"
+			tasks: [{
+				id: "4FD80FEEEB374614"
+				item: "covenant_of_the_seven:geo_blasphemy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["677EB1EA32079619"]
+			id: "31D79ED77AE388DA"
+			shape: "diamond"
+			subtitle: "Read The Item Description"
+			tasks: [{
+				id: "148E64998C59E793"
+				item: "covenant_of_the_seven:fire_blasphemy"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["677EB1EA32079619"]
+			id: "065F062A241AE2A4"
+			shape: "diamond"
+			subtitle: "Read The Item Description"
+			tasks: [{
+				id: "73BF9F1609B97EDD"
+				item: "covenant_of_the_seven:evocation_blasphemy"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["677EB1EA32079619"]
+			id: "1174B5F91D865841"
+			shape: "diamond"
+			subtitle: "Read The Item Description"
+			tasks: [{
+				id: "0B85866BE6BAAED2"
+				item: "covenant_of_the_seven:ender_blasphemy"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["677EB1EA32079619"]
+			id: "1101A907C74BD66F"
+			shape: "diamond"
+			subtitle: "Read The Item Description"
+			tasks: [{
+				id: "5D1BC437F05D6FA5"
+				item: "covenant_of_the_seven:eldritch_blasphemy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["677EB1EA32079619"]
+			id: "2B316BCFBAAEC8DF"
+			shape: "diamond"
+			subtitle: "Read The Item Description"
+			tasks: [{
+				id: "0A95E39CD4444EA1"
+				item: "covenant_of_the_seven:blood_blasphemy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["677EB1EA32079619"]
+			id: "069708B3720F0E65"
+			shape: "diamond"
+			subtitle: "Read The Item Description"
+			tasks: [{
+				id: "52960A61CB806A2B"
+				item: "covenant_of_the_seven:aqua_blasphemy"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["677EB1EA32079619"]
+			id: "036855650BBF0A1D"
+			shape: "diamond"
+			subtitle: "Read The Item Description"
+			tasks: [{
+				id: "573B58EABBF88393"
+				item: "covenant_of_the_seven:wind_blasphemy"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["677EB1EA32079619"]
+			id: "66222C451516902F"
+			shape: "diamond"
+			subtitle: "Read The Item Description"
+			tasks: [{
+				id: "03E68F75EA00AC0E"
+				item: "covenant_of_the_seven:nature_blasphemy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["677EB1EA32079619"]
+			id: "20F5BDA4BF646D19"
+			shape: "diamond"
+			subtitle: "Read The Item Description"
+			tasks: [{
+				id: "609CFB84A7C219F1"
+				item: "covenant_of_the_seven:lightning_blasphemy"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+	]
+	title: "Enigmatic Legacy"
+}

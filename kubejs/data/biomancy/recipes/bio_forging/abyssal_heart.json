@@ -1,0 +1,25 @@
+{
+  "type": "biomancy:bio_forging",
+  "bio_forge_tab": "biomancy:misc",
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    },
+    {
+      "item": "armageddon_mod:the_heart"
+    },
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    {
+      "item": "armageddon_mod:the_heart"
+    },
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    }
+  ],
+  "nutrientsCost": 1000,
+  "result": {
+    "item": "enigmaticlegacy:abyssal_heart"
+  }
+}

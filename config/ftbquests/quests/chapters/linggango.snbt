@@ -1,0 +1,463 @@
+{
+	autofocus_id: "5CC142D737FDEEB7"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "linggango"
+	group: "3C6AB1DE39D4F441"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "kubejs:item/linggangoonium"
+		}
+	}
+	id: "745C2B83DA55CF81"
+	images: [{
+		height: 1.0d
+		image: "customtextures:textures/linggangologo.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: -3.0d
+		y: -1.5d
+	}]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Spell was always a second thing in Linggango (for most of people) so i have decided to make it use-able by giving people oppurtunity to make it genunienly powerful!"]
+			icon: "kubejs:purified_shard_of_compressed_mana"
+			icon_scale: 1.25d
+			id: "5FB33243961A651C"
+			shape: "octagon"
+			tasks: [{
+				id: "558D2DA2492E4424"
+				title: "Magic Enchancement"
+				type: "checkmark"
+			}]
+			title: "Enhancing Spell Power"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5FB33243961A651C"]
+			id: "06D1FE2F4F129CBD"
+			shape: "circle"
+			tasks: [{
+				id: "367EDF602F9F23A4"
+				item: "kubejs:fading_shard_of_compressed_mana"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06D1FE2F4F129CBD"]
+			id: "3C24B0C9C6C800B5"
+			shape: "square"
+			tasks: [{
+				id: "6846E24BC93C564C"
+				item: "kubejs:shard_of_compressed_mana"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["315B464B2A0A0649"]
+			id: "198B4841C26C9212"
+			shape: "octagon"
+			tasks: [{
+				id: "5F856F6A57EC702F"
+				item: "kubejs:purified_shard_of_compressed_mana"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C24B0C9C6C800B5"]
+			id: "315B464B2A0A0649"
+			shape: "gear"
+			tasks: [{
+				id: "514BB72BABAAFB8C"
+				item: "kubejs:magic_vessel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			icon: "kubejs:linggangoonium_ingot"
+			icon_scale: 1.3d
+			id: "5CC142D737FDEEB7"
+			shape: "octagon"
+			subtitle: "Strongest Ingot"
+			tasks: [{
+				id: "396D96050B870155"
+				title: "Linggangoonium"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5CC142D737FDEEB7"]
+			id: "457ECBE0072A447D"
+			shape: "circle"
+			subtitle: "A what?"
+			tasks: [{
+				id: "64BA8F88EC3C06BB"
+				item: "kubejs:fartinium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["457ECBE0072A447D"]
+			description: ["Have fun crafting it."]
+			id: "32877E99F8951F3F"
+			shape: "gear"
+			subtitle: "End-Game Killer"
+			tasks: [{
+				id: "0140B142D931BF86"
+				item: "kubejs:linggangoonium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0F4BF6C7D874A3E6"]
+			id: "038E25443BB23307"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0E7F0819545359F9"
+					item: {
+						Count: 1
+						id: "knightsnmages:elite_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5188EC462D9F9FF1"
+					item: {
+						Count: 1
+						id: "knightsnmages:elite_mage_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "736B2A27FFE52149"
+					item: {
+						Count: 1
+						id: "knightsnmages:elite_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EC3FED1DD884052"
+					item: {
+						Count: 1
+						id: "knightsnmages:elite_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Elite Battlemage Armor Set"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["32877E99F8951F3F"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:textures/mob_effect/frost_defense.png"
+				}
+			}
+			id: "0F4BF6C7D874A3E6"
+			shape: "square"
+			tasks: [{
+				id: "6E2499F9546285A1"
+				title: "Strongest Armors"
+				type: "checkmark"
+			}]
+			x: -4.938732950795952d
+			y: 3.4981877095435223d
+		}
+		{
+			dependencies: ["0F4BF6C7D874A3E6"]
+			id: "28CEDA431511728C"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "63D58CA38A9E1291"
+					item: {
+						Count: 1
+						id: "knightsnmages:dark_knight_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "451BEEAC7BF8BBF8"
+					item: {
+						Count: 1
+						id: "knightsnmages:dark_knight_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76558A85CC58F546"
+					item: {
+						Count: 1
+						id: "knightsnmages:dark_knight_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7645D79F3E6CF635"
+					item: {
+						Count: 1
+						id: "knightsnmages:dark_knight_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dark Knight Armor Set"
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0F4BF6C7D874A3E6"]
+			id: "0941581AF7BAF005"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "62074D885766BED0"
+					item: {
+						Count: 1
+						id: "knightsnmages:blue_knight_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77F941555B0BE881"
+					item: {
+						Count: 1
+						id: "knightsnmages:blue_knight_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B220BF53C037273"
+					item: {
+						Count: 1
+						id: "knightsnmages:blue_knight_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A125AD422584F33"
+					item: {
+						Count: 1
+						id: "knightsnmages:blue_knight_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["32877E99F8951F3F"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "30E2FD6B069866FB"
+			shape: "square"
+			tasks: [{
+				id: "151354A739FC089D"
+				title: "Creative Items"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["30E2FD6B069866FB"]
+			id: "4BC57105E8D469E5"
+			shape: "diamond"
+			tasks: [{
+				id: "78BD6E0DDD091A15"
+				item: "terramity:pocket_universe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["30E2FD6B069866FB"]
+			id: "7FF20EA035FE6CAD"
+			shape: "diamond"
+			tasks: [{
+				id: "0C126D19A38F7813"
+				item: "ae2:creative_item_cell"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30E2FD6B069866FB"]
+			id: "66E20D2D4E048A0C"
+			shape: "diamond"
+			tasks: [{
+				id: "627D95DAD30449C2"
+				item: "ae2:creative_fluid_cell"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["30E2FD6B069866FB"]
+			id: "153F6D05B19C33ED"
+			shape: "diamond"
+			tasks: [{
+				id: "10E5B5284D5F4C07"
+				item: "appflux:fe_creative_cell"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["30E2FD6B069866FB"]
+			id: "7F2357D0E8CD369D"
+			shape: "diamond"
+			tasks: [{
+				id: "237AF2C4BB63E1C2"
+				item: "appmek:creative_chemical_cell"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["30E2FD6B069866FB"]
+			id: "64AE2207B417F3CA"
+			shape: "diamond"
+			tasks: [{
+				id: "497F4759A5D54A36"
+				item: "ars_nouveau:creative_spell_book"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30E2FD6B069866FB"]
+			id: "61EFB96E2D893E14"
+			shape: "diamond"
+			tasks: [{
+				id: "012DD006148547E1"
+				item: "ars_nouveau:creative_source_jar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["30E2FD6B069866FB"]
+			id: "3092788C4B2298B8"
+			shape: "diamond"
+			tasks: [{
+				id: "3E2BB4481075DC58"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["30E2FD6B069866FB"]
+			id: "5DECA5B20BA538D0"
+			shape: "diamond"
+			tasks: [{
+				id: "226548734458C57E"
+				item: "hexerei:creative_waxing_kit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["30E2FD6B069866FB"]
+			id: "425F9D49C6B3EF2F"
+			shape: "diamond"
+			tasks: [{
+				id: "2FBE5518FD9A65DA"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["30E2FD6B069866FB"]
+			id: "52982024244EAFF9"
+			shape: "diamond"
+			tasks: [{
+				id: "5C5D17F9E0304EDD"
+				item: "create:handheld_worldshaper"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+	]
+	title: "Linggango"
+}

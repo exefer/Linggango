@@ -1,0 +1,31 @@
+
+[covenant_of_the_seven]
+	#Maximum value for the exponential growth multiplier for calculating the relative closeness of the current spell level to its maximum level when using LP instead of Mana
+	#Default: 30.0
+	#Range: 0.01 ~ 100.0
+	levelScale = 30.0
+	#Fixed cost multiplier for COMMON spells when using LP instead of Mana
+	#Default: 2.0
+	#Range: 0.01 ~ 100.0
+	commonMultiplier = 2.0
+	#Fixed cost multiplier for UNCOMMON spells when using LP instead of Mana
+	#Default: 3.0
+	#Range: 0.01 ~ 100.0
+	uncommonMultiplier = 3.0
+	#Fixed cost multiplier for RARE spells when using LP instead of Mana
+	#Default: 7.0
+	#Range: 0.01 ~ 100.0
+	rareMultiplier = 7.0
+	#Fixed cost multiplier for EPIC spells when using LP instead of Mana
+	#Default: 12.0
+	#Range: 0.01 ~ 100.0
+	epicMultiplier = 12.0
+	#Fixed cost multiplier for LEGENDARY spells when using LP instead of Mana
+	#Default: 25.0
+	#Range: 0.01 ~ 100.0
+	legendaryMultiplier = 25.0
+	#SpellPower multiplier provided by the Blasphemy of the Elements for each curse
+	#Default: 0.4
+	#Range: 0.01 ~ 100.0
+	curseMultiplier = 0.4
+

@@ -1,0 +1,36 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "kubejs:fading_shard_of_compressed_mana"
+  },
+  "pedestalItems": [
+    {
+      "item": "armageddon_mod:gemwoven_fragment"
+    },
+    {
+      "item": "armageddon_mod:eldorath_lore_scroll"
+    },
+    {
+      "item": "bloodmagic:magicianbloodorb"
+    },
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },
+    {
+      "item": "armageddon_mod:the_worldshaper_axe"
+    },
+    {
+      "item": "armageddon_mod:ancient_builders_charm"
+    },
+    {
+      "item": "goety:iron_hide_focus"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "sourceCost": 100000
+}

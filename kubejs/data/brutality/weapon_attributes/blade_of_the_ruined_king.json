@@ -1,0 +1,21 @@
+{
+    "parent": "bettercombat:double_axe",
+  "attributes": {
+    "pose": "weapon:pose_big_katana_animated",
+    "attack_range": 4.5,
+   "attacks": [
+      {
+        "swing_sound" : { "id" : "brutality:darkin_blade_1"},
+        "pitch": 0.5
+      },
+      {
+        "swing_sound" : { "id" : "brutality:darkin_blade_2"},
+        "pitch": 0.5
+      },
+      {
+        "swing_sound" : { "id" : "brutality:darkin_blade_1"},
+        "pitch": 0.5
+      }
+    ]
+  }
+}
