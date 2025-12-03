@@ -107,7 +107,7 @@
 100, darkerdepths:catacombs, HEADING, header:ignore, 0, 0, 0
 101, irons_spellbooks:catacombs, HEADING, header:ignore, 0, 0, 0
 102, irons_spellbooks:catacombs, MONSTER, irons_spellbooks:catacombs_zombie, 20, 1, 1
-103, irons_spellbooks:catacombs, MONSTER, irons_spellbooks:necromancer, 20, 1, 1
+103, irons_spellbooks:catacombs, MONSTER, irons_spellbooks:necromancer, 10, 1, 1
 104, undergarden:catacombs, HEADING, header:ignore, 0, 0, 0
 105, undergarden:catacombs, MONSTER, undergarden:forgotten, 20, 1, 1
 106, ati_structures:catalonian_castle, HEADING, header:ignore, 0, 0, 0
@@ -153,7 +153,7 @@
 146, goety:crypt, HEADING, header:ignore, 0, 0, 0
 147, goety:crypt, MONSTER, goety:haunted_armor, 20, 1, 1
 148, goety:crypt, MONSTER, goety:crypt_slime, 20, 1, 1
-149, goety:crypt, MONSTER, goety:reaper, 20, 1, 1
+149, goety:crypt, MONSTER, goety:reaper, 10, 1, 1
 150, goety:crypt, MONSTER, goety:border_wraith, 20, 1, 1
 151, goety:crypt, MONSTER, goety:bone_spider, 20, 1, 1
 152, goety:crypt, MONSTER, goety:cairn_necromancer, 20, 1, 1
@@ -323,8 +323,8 @@
 316, mns:grave_yard, HEADING, header:ignore, 0, 0, 0
 317, born_in_chaos_v1:gravecarrionexe, HEADING, header:ignore, 0, 0, 0
 318, goety:graveyard, HEADING, header:ignore, 0, 0, 0
-319, goety:graveyard, MONSTER, goety:wraith, 20, 1, 1
-320, goety:graveyard, MONSTER, goety:reaper, 20, 1, 1
+319, goety:graveyard, MONSTER, goety:wraith, 10, 1, 1
+320, goety:graveyard, MONSTER, goety:reaper, 10, 1, 1
 321, goety:graveyard, MONSTER, goety:border_wraith, 20, 1, 1
 322, mythsandlegends:graveyard, HEADING, header:ignore, 0, 0, 0
 323, mythsandlegends:graveyard, MONSTER, mythsandlegends:condemned, 20, 1, 1
@@ -673,7 +673,7 @@
 666, mvs:small_pillager_tower, HEADING, header:ignore, 0, 0, 0
 667, mss:small_pond, HEADING, header:ignore, 0, 0, 0
 668, embers:small_ruin, HEADING, header:ignore, 0, 0, 0
-669, embers:small_ruin, MONSTER, embers:ancient_golem, 20, 1, 1
+669, embers:small_ruin, MONSTER, embers:ancient_golem, 8, 1, 1
 670, mvs:small_ruin, HEADING, header:ignore, 0, 0, 0
 671, mvs:small_ship, HEADING, header:ignore, 0, 0, 0
 672, mvs:small_spruce_lantern, HEADING, header:ignore, 0, 0, 0
