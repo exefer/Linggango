@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-  event.shapeless("kubejs:blazerod_block", "9x minecraft:blaze_rod");
+  e.shapeless("kubejs:blazerod_block", "9x minecraft:blaze_rod");
 
   e.shaped("kubejs:broken_cube_piece_1", ["ABC", "DEF", "GBC"], {
     A: "enigmaticlegacy:golem_heart",
