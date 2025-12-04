@@ -9,7 +9,7 @@ ServerEvents.recipes(e => {
         item: "minecraft:gold_block",
       },
     ],
-    energy: 90_000,
+    energy: 90000,
     result: {
       item: "powah:energized_steel_block",
     },
@@ -22,7 +22,7 @@ ServerEvents.recipes(e => {
         item: "kubejs:blazerod_block",
       },
     ],
-    energy: 810_000,
+    energy: 810000,
     result: {
       item: "powah:blazing_crystal_block",
     },
@@ -35,7 +35,7 @@ ServerEvents.recipes(e => {
         item: "minecraft:diamond_block",
       },
     ],
-    energy: 2_700_000,
+    energy: 2700000,
     result: {
       item: "powah:niotic_crystal_block",
     },
@@ -48,7 +48,7 @@ ServerEvents.recipes(e => {
         item: "minecraft:emerald_block",
       },
     ],
-    energy: 9_000_000,
+    energy: 9000000,
     result: {
       item: "powah:spirited_crystal_block",
     },
