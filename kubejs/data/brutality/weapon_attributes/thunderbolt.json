@@ -1,0 +1,19 @@
+{
+  "parent": "bettercombat:trident",
+    "attributes": {
+   "pose": "lethality:greatsword_pose",
+    "attack_range": 4.0,
+    "two_handed": true,
+    "attacks": [
+      {
+        "swing_sound" : { "id" : "goety:redstone_golem_electric_sparks"}
+      },
+      {
+        "swing_sound" : { "id" : "goety:redstone_golem_electric_sparks"}
+      },
+      {
+        "swing_sound" : { "id" : "goety:redstone_golem_electric_sparks"}
+      }
+    ]
+  }
+}

@@ -5,15 +5,15 @@
     "attack_range": 4.5,
    "attacks": [
       {
-        "swing_sound" : { "id" : "bosses_of_mass_destruction:comet_shoot"},
+        "swing_sound" : { "id" : "simplyswords:elemental_sword_holy_attack_01"},
         "pitch": 0.5
       },
       {
-        "swing_sound" : { "id" : "bosses_of_mass_destruction:comet_shoot"},
+        "swing_sound" : { "id" : "simplyswords:elemental_sword_holy_attack_01"},
         "pitch": 0.5
       },
       {
-        "swing_sound" : { "id" : "bosses_of_mass_destruction:comet_shoot"},
+        "swing_sound" : { "id" : "simplyswords:elemental_sword_holy_attack_01"},
         "pitch": 0.5
       }
     ]

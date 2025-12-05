@@ -1,0 +1,24 @@
+{
+  "parent": "bettercombat:double_axe",
+  "attributes": {
+    "attack_range": 3.4,
+    "pose": "weapon:pose_big_katana_animated",
+  "attacks": [
+      {
+        "swing_sound": {
+          "id": "bettercombat:scythe_slash"},
+          "pitch": 0.5
+      },
+      {
+        "swing_sound": {
+          "id": "bettercombat:scythe_slash"},
+          "pitch": 0.5
+      },
+      {
+        "swing_sound": {
+          "pitch": -0.5,
+          "id": "bettercombat:scythe_slash"}
+      }
+    ]
+  }
+}

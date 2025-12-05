@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "knightsnmages:elite_mage_helmet"
+  },
+  "pedestalItems": [
+    {
+      "item": "ancient_elements:ruined_remnant"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "enigmaticlegacy:unholy_grail"
+    },
+    {
+      "item": "brutality:unbridled_rage"
+    },
+    {
+      "item": "composite_material:etherite_ingot"
+    },
+    {
+      "item": "mythsandlegends:fire_heart"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "goety_revelation:spectre_darkmage_helmet"
+    }
+  ],
+  "sourceCost": 1000
+}

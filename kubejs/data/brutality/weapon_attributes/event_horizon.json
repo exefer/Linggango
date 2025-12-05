@@ -1,0 +1,19 @@
+{
+  "parent": "bettercombat:double_axe",
+  "attributes": {
+    "pose": "weapon:pose_great_sword_animated",
+    "attack_range": 6.0,
+    "two_handed": true,
+    "attacks": [
+      {
+        "swing_sound" : { "id" : "brutality:supernova_1"}
+      },
+      {
+        "swing_sound" : { "id" : "brutality:supernova_2"}
+      },
+      {
+        "swing_sound" : { "id" : "brutality:supernova_3"}
+      }
+    ]
+  }
+}

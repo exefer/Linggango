@@ -1,0 +1,21 @@
+{
+  "parent": "bettercombat:double_axe",
+  "attributes": {
+    "attack_range": 3.8,
+    "pose": "weapon:pose_great_sword_animated",
+    "attacks": [
+      {
+        "swing_sound" : { "id" : "brutality:darkin_blade_1"},
+        "pitch": 0.5
+      },
+      {
+        "swing_sound" : { "id" : "brutality:darkin_blade_2"},
+        "pitch": 0.5
+      },
+      {
+        "swing_sound" : { "id" : "brutality:darkin_blade_1"},
+        "pitch": 0.5
+      }
+    ]
+  }
+}

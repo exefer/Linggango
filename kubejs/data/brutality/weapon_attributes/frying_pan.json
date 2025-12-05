@@ -1,0 +1,24 @@
+{
+  "parent": "brutality:presets/spatula",
+  "attributes": {
+  "pose": "lethality:greatsword_pose",
+  "attack_range": 4.25,
+  "attacks": [
+      {
+        "swing_sound" : { 
+        "pitch": -0.5, 
+         "id": "bettercombat:claymore_slam"}
+      },
+      {
+        "swing_sound" : { 
+        "pitch": -0.5, 
+         "id": "bettercombat:claymore_slam"}
+      },
+      {
+        "swing_sound" : { 
+        "pitch": -0.5, 
+         "id": "bettercombat:claymore_slam"}
+      }
+    ]
+  }
+}

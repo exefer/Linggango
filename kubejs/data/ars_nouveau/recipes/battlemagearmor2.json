@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "knightsnmages:elite_mage_chestplate"
+  },
+  "pedestalItems": [
+    {
+      "item": "kubejs:linggangoonium_ingot"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "ancient_elements:collapse_prism"
+    },
+    {
+      "item": "cataclysm:dying_ember"
+    },
+    {
+      "item": "cataclysm:dying_ember"
+    },
+    {
+      "item": "ancient_elements:collapse_prism"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "kubejs:linggangoonium_ingot"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "goety_revelation:spectre_darkmage_chestplate"
+    }
+  ],
+  "sourceCost": 1000
+}

@@ -1,7 +1,7 @@
 {
   "attributes": {
     "pose": "weapon:pose_great_sword_animated",
-    "attack_range": 5.0,
+    "attack_range": 25.0,
     "attacks": [
       {
         "angle": 360.0,
@@ -34,10 +34,9 @@
         "damage_multiplier": 3.0,
         "hitbox": "FORWARD_BOX",
         "swing_sound": {
-          "id": "bettercombat:claymore_slam",
-          "pitch": -2.0,
-          "randomness": 0.1,
-          "volume": 1.0
+          "id": "legendary_monsters:anchor_slam",
+          "pitch": 0.5,
+          "volume": 2.0
         },
         "upswing": 0.5
       }

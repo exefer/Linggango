@@ -1,0 +1,14 @@
+{
+  "parent": "bettercombat:scythe",
+  "attributes": {
+    "attack_range": 5,
+   "attacks": [
+      {
+        "swing_sound" : { "id" : "brutality:deathbringer_stance_ready"}
+      },
+      {
+        "swing_sound" : { "id" : "brutality:deathbringer_stance_ready"}
+      }
+    ]
+  }
+}

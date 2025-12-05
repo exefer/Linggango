@@ -1,0 +1,23 @@
+{
+  "parent": "bettercombat:claymore",
+  "attributes": {
+    "attack_range": 4.25,
+     "attacks": [
+      {
+        "swing_sound" : { 
+          "pitch": -1.0,
+          "id" : "minecraft:entity.player.hurt_freeze"}
+      },
+    {
+        "swing_sound" : { 
+          "pitch": -1.0,
+          "id" : "minecraft:entity.player.hurt_freeze"}
+      },
+      {
+        "swing_sound" : { 
+          "pitch": -1.0,
+          "id" : "minecraft:entity.player.hurt_freeze"}
+      }
+    ]
+  }
+}

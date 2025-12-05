@@ -128,7 +128,7 @@ ServerEvents.recipes(e => {
 
   e.recipes.create
     .mixing("artifacts:eternal_steak", [
-      "129x minecraft:beef",
+      "128x minecraft:beef",
       "3x minecraft:nether_star",
     ])
     .superheated();

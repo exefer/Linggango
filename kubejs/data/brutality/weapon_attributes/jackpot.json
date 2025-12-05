@@ -1,0 +1,9 @@
+{
+  "parent": "bettercombat:double_axe",
+  "attributes": {
+    "attack_range": 5,
+    "two_handed": true,
+    "pose": "weapon:pose_great_sword_animated"
+   
+        }
+      }

@@ -1,0 +1,17 @@
+{
+  "parent": "bettercombat:claymore",
+  "attributes": {
+    "attack_range": 6,
+    "attacks": [
+      {
+        "swing_sound" : { "id" : "brutality:darkin_blade_1"}
+      },
+      {
+        "swing_sound" : { "id" : "brutality:darkin_blade_2"}
+      },
+      {
+        "swing_sound" : { "id" : "brutality:deathbringer_stance_hit"}
+      }
+    ]
+  }
+}

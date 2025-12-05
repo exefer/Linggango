@@ -1,0 +1,17 @@
+{
+  "parent": "bettercombat:double_axe",
+  "attributes": {
+    "attack_range": 4.25,
+    "attacks": [
+      {
+        "swing_sound" : { "id" : "cataclysm:prowler_saw_spin_attack"}
+      },
+      {
+        "swing_sound" : { "id" : "cataclysm:prowler_saw_spin_attack"}
+      },
+      {
+        "swing_sound" : { "id" : "cataclysm:prowler_saw_spin_attack"}
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "bettercombat:double_axe",
+  "attributes": {
+    "attack_range": 5,
+    "two_handed": true,
+    "pose": "lethality:greatsword_pose",
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.6,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_slash_horizontal_right",
+        "swing_sound": {
+          "id": "goety:black_beast_claw",
+          "volume": 1.5,
+          "pitch": -20
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.5,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_slash_horizontal_left",
+        "swing_sound": {
+          "id": "goety:black_beast_claw",
+          "volume": 1.5,
+          "pitch": -20
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 2.5,
+        "angle": 90,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_slam_heavy",
+        "swing_sound": {
+          "id": "goety:black_beast_claw",
+          "volume": 1.5,
+          "pitch": 0.5
+        }
+      }
+    ]
+  }
+}

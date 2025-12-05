@@ -1,0 +1,19 @@
+{
+  "parent": "bettercombat:double_axe",
+  "attributes": {
+    "attack_range": 5,
+    "two_handed": true,
+    "pose": "lethality:greatsword_pose",
+   "attacks": [
+      {
+        "swing_sound" : { "id" : "simplyswords:dark_sword_attack_01"}
+      },
+      {
+        "swing_sound" : { "id" : "simplyswords:dark_sword_attack_02"}
+      },
+      {
+        "swing_sound" : { "id" : "simplyswords:dark_sword_attack_03"}
+      }
+    ]
+  }
+}

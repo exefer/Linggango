@@ -1,0 +1,26 @@
+{
+  "parent": "bettercombat:claymore",
+  "attributes": {
+    "attack_range": 3.3,
+     "attacks": [
+     {
+        "swing_sound" : { 
+          "pitch": 2.0,
+        "id" : "brutality:supernova_1"}
+
+      },
+      {
+        "swing_sound" : { 
+          "pitch": 2.0,
+        "id" : "brutality:supernova_3"}
+
+      },
+      {
+        "swing_sound" : { 
+          "pitch": 2.0,
+        "id" : "terramity:buff_holy"}
+
+      }
+    ]
+  }
+}

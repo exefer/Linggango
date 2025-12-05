@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "knightsnmages:elite_mage_boots"
+  },
+  "pedestalItems": [
+    {
+      "item": "kubejs:linggangoonium_ingot"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "ancient_elements:collapse_prism"
+    },
+    {
+      "item": "armageddon_mod:umbral_sun"
+    },
+    {
+      "item": "armageddon_mod:umbral_sun"
+    },
+    {
+      "item": "ancient_elements:collapse_prism"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "kubejs:linggangoonium_ingot"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "goety_revelation:spectre_darkmage_boots"
+    }
+  ],
+  "sourceCost": 1000
+}
